@@ -58,7 +58,9 @@ class DataDivideStrategy(DataStrategy):
         except Exception as e:
             logging.error("Error in dividing the data {}".format(e))
             raise e
-
+"""
+This is imp class which calls the Abstract Classes
+"""
 class DataCleaning:
     """
     Class for cleaning the data which process the data and divide into train and test
@@ -77,8 +79,12 @@ class DataCleaning:
         except Exception as e:
             logging.error("Error in handling the data {}".format(e))
             raise e
-        
-if __name__ == "__main__":
-    #data/olist_customers_dataset.csv
-    data = pd.read_csv("../data/olist_order_items_dataset.csv")
-    data = DataCleaning(data=data, strategy=D
+
+"""
+ How to use the class
+"""       
+# if __name__ == "__main__":
+#     #data/olist_customers_dataset.csv
+#     data = pd.read_csv("../data/olist_order_items_dataset.csv")
+#     data_cleaning = DataCleaning(data=data, strategy=DataPreProcessingStrategy())
+#     data_cleaning.handle_data()
