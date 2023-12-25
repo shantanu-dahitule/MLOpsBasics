@@ -7,7 +7,7 @@ from .config import ModelNameConfig
 import mlflow
 from zenml.client import Client
 
-experiment_tracker = Client().activate_stack.experiment_tracker
+experiment_tracker = Client().active_stack.experiment_tracker
 
 
 @step(experiment_tracker=experiment_tracker.name)
