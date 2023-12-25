@@ -22,7 +22,7 @@ class DataPreProcessingStrategy(DataStrategy):
         """
         logging.info("Preprocessing the data")
         try:
-            data = data.dropna([
+            data = data.drop([
                     "order_approved_at",
                     "order_delivered_carrier_date",
                     "order_delivered_customer_date",
