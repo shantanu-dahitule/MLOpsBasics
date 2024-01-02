@@ -15,6 +15,10 @@ Ensure you have the following installed before running the project:
 - `steps/`: Stores the ZENML pipeline configurations.
 
 #### Note: Use bash terminal or Unix terminal for successful execution.
+## Pipeline View in DashBoard
+![image](https://github.com/shantanu-dahitule/MLOpsBasics/assets/79780881/0a172043-2e50-4c6c-9d5c-fb6b0ec64f0c)
+![image](https://github.com/shantanu-dahitule/MLOpsBasics/assets/79780881/0f936de7-d4a2-4f83-a14e-2b1c759ac31d)
+
 ## Getting Started
 Clone the repository:
    ```bash
