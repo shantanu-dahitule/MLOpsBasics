@@ -14,7 +14,7 @@ Ensure you have the following installed before running the project:
 - `src/`: Holds the source code for the machine learning model.
 - `steps/`: Stores the ZENML pipeline configurations.
 
-
+#### Note: Use bash terminal or Unix terminal for successful execution.
 ## Getting Started
 Clone the repository:
    ```bash
@@ -23,7 +23,6 @@ Clone the repository:
    pip install -r requirements.txt
    zenml init
    zenml run
-   ### To see the dashboard use
-   zenml up --blocking 
-
+To see the dashboard use
+   zenml up --blocking
 
